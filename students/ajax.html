@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="demo">
+            <h2> let ajax change this text</h2>
+            <button type="button"
+            onclick="loadoc()">change content</button>
+        </div>
+        <script>
+            function loadoc(){
+                const xhttp = new XMLhttpRequest();
+                xhttp.onload = function() {
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }
+                xhttp.open("GET","ajax_info.txt",true);
+                xhttp.send();
+            }
+            </script>
+    </body>
+</html>

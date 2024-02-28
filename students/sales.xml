@@ -1,0 +1,21 @@
+<sales>
+    <product>
+        <name>Product A</name>
+        <quality>High</quality>
+        <rate>100.00</rate>
+        <amount>500.00</amount>
+        <discount>50.00</discount>
+        <tax>20.00</tax>
+        <total>470.00</total>
+    </product>
+    <product>
+        <name>Product B</name>
+        <quality>Medium</quality>
+        <rate>75.00</rate>
+        <amount>300.00</amount>
+        <discount>15.00</discount>
+        <tax>12.00</tax>
+        <total>297.00</total>
+    </product>
+    
+</sales>

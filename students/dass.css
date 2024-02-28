@@ -1,0 +1,75 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 70px;
+}
+.logo img
+{
+    width: 120px;
+    height: 70px;
+}
+.buttons {
+    display: flex;
+}
+.data
+{
+    text-decoration: none;
+    color: #171717;
+}
+.button1 {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: chocolate;
+    color:#000 ;
+    font-size: 20px;
+}
+.row
+{
+    background-color:aquamarine;
+    height: 20px;
+    padding: 10px;
+}
+
+.van
+{
+    margin: 6px;
+    list-style-type: none;
+    text-align: center;
+}
+.van li
+{
+    font-size: large;
+    margin: 20px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+.description h1
+{
+    font-size: 60px;
+}
+.description p
+{
+    
+    text-align: center;
+    width: 600px;
+    text-indent: 80px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
